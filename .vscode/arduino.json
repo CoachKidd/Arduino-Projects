@@ -1,6 +1,6 @@
 {
     "board": "arduino:avr:uno",
-    "port": "/dev/cu.usbmodem14101",
+    "port": "/dev/cu.usbmodem14301",
     "programmer": "arduino:avrispmkii",
-    "sketch": "Arduino-Morse-Code/Arduino-Morse-Code.ino"
+    "sketch": "Simple-Morse-Code/Simple-Morse-Code.ino"
 }
