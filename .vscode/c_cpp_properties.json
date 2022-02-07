@@ -18,12 +18,10 @@
             "includePath": [
                 "/Users/andrewkidd/Library/Arduino15/packages/arduino/hardware/avr/1.8.4/cores/arduino",
                 "/Users/andrewkidd/Library/Arduino15/packages/arduino/hardware/avr/1.8.4/variants/standard",
+                "/Users/andrewkidd/Documents/Arduino/libraries/Morse",
                 "/Users/andrewkidd/Library/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/lib/gcc/avr/7.3.0/include",
                 "/Users/andrewkidd/Library/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/lib/gcc/avr/7.3.0/include-fixed",
                 "/Users/andrewkidd/Library/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/avr/include"
-            ],
-"forcedInclude": [
-        "/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Arduino.h"
             ],
             "forcedInclude": [
                 "/Users/andrewkidd/Library/Arduino15/packages/arduino/hardware/avr/1.8.4/cores/arduino/Arduino.h"

@@ -6,6 +6,7 @@ By: Andrew Kidd
 Creating my own library.
 Starting with this monolithic code block.
 */
+/*
 int pin = 13;
 
 void setup()
@@ -35,4 +36,44 @@ void dash()
   delay(1000);
   digitalWrite(pin, LOW);
   delay(250);
+}
+*/
+#include <Morse.h>
+
+Morse morse(13);
+
+void setup()
+{
+}
+
+void loop()
+{
+  /* // SOS
+  morse.dot(); morse.dot(); morse.dot();
+  morse.dash(); morse.dash(); morse.dash();
+  morse.dot(); morse.dot(); morse.dot();
+  delay(3000);
+  
+  // "Andrew" becomes : .-/-./-../.-././.--//
+  morse.dot(); morse.dash(); 
+  morse.dash();morse.dot();
+  morse.dash();morse.dot();morse.dot();
+  morse.dot();morse.dash();morse.dot();
+  morse.dot();
+  morse.dot();morse.dash();morse.dash();
+  delay(3000);
+
+  */
+  // "I love you" becomes ..//.-../---/...-/.//-.--/---/..-//
+  morse.dot();morse.dot();
+  delay(500);
+  morse.dot();morse.dash();morse.dot();morse.dot();
+  morse.dash();morse.dash();morse.dash();
+  morse.dot();morse.dot();morse.dot();morse.dash();
+  morse.dot();
+  delay(500);
+  morse.dash();morse.dot();morse.dash();morse.dash();
+  morse.dash();morse.dash();morse.dash();
+  morse.dot();morse.dot();morse.dash();
+  delay(3000);
 }
