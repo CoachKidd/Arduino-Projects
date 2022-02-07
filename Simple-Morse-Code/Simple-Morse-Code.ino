@@ -66,12 +66,12 @@ void loop()
   */
   // "I love you" becomes ..//.-../---/...-/.//-.--/---/..-//
   morse.dot();morse.dot();
-  delay(500);
+  delay(1000);
   morse.dot();morse.dash();morse.dot();morse.dot();
   morse.dash();morse.dash();morse.dash();
   morse.dot();morse.dot();morse.dot();morse.dash();
   morse.dot();
-  delay(500);
+  delay(1000);
   morse.dash();morse.dot();morse.dash();morse.dash();
   morse.dash();morse.dash();morse.dash();
   morse.dot();morse.dot();morse.dash();
