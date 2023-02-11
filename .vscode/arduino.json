@@ -1,6 +1,6 @@
 {
     "board": "arduino:avr:uno",
-    "port": "/dev/tty.usbserial-1410",
+    "port": "/dev/tty.usbserial-1420",
     "programmer": "arduino:avrispmkii",
     "sketch": "Simple-Morse-Code/Simple-Morse-Code.ino"
 }
