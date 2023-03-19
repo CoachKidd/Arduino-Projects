@@ -11,3 +11,6 @@ Arduino-Test.code-workspace
 *.DS_Store
 *.workspace
 *.code-workspace
+*.json
+.vscode/arduino.json
+.vscode/c_cpp_properties.json
