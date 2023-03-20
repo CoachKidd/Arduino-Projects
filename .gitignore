@@ -2,3 +2,5 @@
 *.workspace
 *.code-workspace
 *.json
+/Build
+/Arduino-Projects-Build
