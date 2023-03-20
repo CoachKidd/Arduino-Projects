@@ -38,6 +38,7 @@ void dash()
   delay(250);
 }
 */
+
 #include <Morse.h>
 
 Morse morse(13);
@@ -65,6 +66,7 @@ void loop()
 
   */
   // "I love you" becomes ..//.-../---/...-/.//-.--/---/..-//
+  
   morse.dot();morse.dot();
   delay(1000);
   morse.dot();morse.dash();morse.dot();morse.dot();
